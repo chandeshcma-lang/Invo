@@ -1,0 +1,8 @@
+services:
+  invo:
+    build: .
+    container_name: invo-pdf-to-excel
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
